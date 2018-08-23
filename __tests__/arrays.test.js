@@ -28,6 +28,7 @@ describe('getNthElement', () => {
   it('if n is greater than the number of elements, it cycles back to the start', () => {
     expect(getNthElement(4, array)).toEqual('cat');
     expect(getNthElement(5, array)).toEqual('dog');
+    expect(getNthElement(10, array)).toEqual('elephant');
   });
 });
 
